@@ -33,7 +33,7 @@ jobs:
           STATS_RANGE: "last_year"
           BRANCH: "output"
           COMMIT_MSG: "Update WakaTime last year stats SVG"
-          OUTPUT_FILE: "wakatime-stats.svg"
+          OUTPUT_FILE: "dist/wakatime-stats.svg"
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           
