@@ -17,12 +17,12 @@
 
 <img src="https://wakatime.com/badge/user/00f0d57a-f6e1-492d-93c6-d00e19980958.svg?style=for-the-badge" alt="Total time coded since Apr 28 2025" />
 
-<img align="right" width="45%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/top-langs.svg" alt="No languages data" />
+<img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Benzyl-titanium&layout=compact&theme=radical" alt="No languages data" />
 
 <img width="45%" height="auto" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Benzyl_titanium&theme=react&layout=compact" />
 
 <img align="right" width="45%" src="https://count.getloli.com/@Benzyl-titanium?name=Benzyl-titanium&theme=booru-lewd&padding=7&offset=0&align=bottom&scale=1&pixelated=1&darkmode=auto" />
 
-<img  width="45%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/stats.svg" alt="Benzyl titanium's GitHub Stats" />
+<img  width="45%" src="https://github-readme-stats.vercel.app/api?username=Benzyl-titanium&theme=radical&show_icons=true" alt="Benzyl titanium's GitHub Stats" />
 
 <img src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/github-contribution-grid-snake.svg" alt="Benzyl titanium's GitHub contributions in the last year" />
