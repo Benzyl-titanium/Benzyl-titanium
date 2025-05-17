@@ -24,7 +24,19 @@ jobs:
         run: |
           git clean -fd
           echo "Cleaned untracked files"
-
+          
+      - name: Generate WakaTime Stats SVG
+        uses: avinal/Profile-Readme-WakaTime@v3.5
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_RANGE: "last_year"
+          BRANCH: "output"
+          COMMIT_MSG: "Update WakaTime last year stats SVG"
+          OUTPUT_FILE: "wakatime-stats.svg"
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          
       - name: Generate Stats and Contribution Grid SVG
         run: |
           mkdir -p dist
