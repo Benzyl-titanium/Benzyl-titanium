@@ -20,22 +20,45 @@ jobs:
         with:
           fetch-depth: 0 # 获取完整历史记录
 
-      - name: Clean untracked files
+      - name: Debug WakaTime API
         run: |
-          git clean -fd
-          echo "Cleaned untracked files"
-          
+          echo "Checking WakaTime API key"
+          if [ -z "${{ secrets.WAKATIME_API_KEY }}" ]; then
+            echo "Error: WAKATIME_API_KEY is not set"
+            exit 1
+          fi
+          echo "Testing WakaTime API"
+          curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" "https://wakatime.com/api/v1/users/current/stats/last_year" > wakatime_response.json
+          if grep -q '"data"' wakatime_response.json; then
+            echo "WakaTime API response contains data"
+          else
+            echo "Error: No data in WakaTime API response"
+            cat wakatime_response.json
+            exit 1
+          fi
+
       - name: Generate WakaTime Stats SVG
-        uses: avinal/Profile-Readme-WakaTime@v3.5
+        uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          STATS_RANGE: "last_year"
-          BRANCH: "output"
-          COMMIT_MSG: "Update WakaTime last year stats SVG"
-          OUTPUT_FILE: "dist/wakatime-stats.svg"
+          OUTPUT_LOCATION: dist/wakatime-stats.svg
+          SHOW_TITLE: true
+          BLOCKS: ⬛⬜🟪🟫
+          TIME_RANGE: last_year
+          SHOW_TIME: true
+          SHOW_TOTAL: true
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+      - name: Verify WakaTime SVG
+        run: |
+          if [ -f dist/wakatime-stats.svg ]; then
+            echo "WakaTime SVG generated successfully"
+            ls -l dist/
+          else
+            echo "Error: WakaTime SVG not generated"
+            exit 1
+          fi
           
       - name: Generate Stats and Contribution Grid SVG
         run: |
