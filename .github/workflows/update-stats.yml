@@ -1,71 +1,40 @@
-name: Update Profile Stats and Snake
+name: Update Stats, Snake, and Contribution Grid SVG
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 16 * * *'
   workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
-  update-stats:
-    name: Update README with Stats and Snake
+  update-stats-snake-grid:
+    name: Generate and Push Stats, Snake, and Contribution Grid SVG
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # 允许写入 output 分支
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # 获取完整历史记录
 
-      - name: Update WakaTime Stats
-        uses: athul/waka-readme@v0.3.0
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          TIME_RANGE: last_7_days
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          SHOW_MASKED_TIME: false
-          LANG_COUNT: 5
-          STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: YAML JSON TOML
-          COMMIT_MESSAGE: 'docs: update WakaTime stats in README'
-          BLOCKS: '⣀⣄⣤⣦⣶⣾⣿'
-          TARGET_PATH: README.md
-          TARGET_BRANCH: main
-
-      - name: Generate GitHub Stats Card
+      - name: Clean untracked files
         run: |
+          git clean -fd
+          echo "Cleaned untracked files"
+
+      - name: Generate Stats and Contribution Grid SVG
+        run: |
+          mkdir -p dist
           echo "Generating GitHub stats cards"
-          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical"
-          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical"
+          curl -o dist/stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical&include_all_commits=true&count_private=true"
+          curl -o dist/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical"
+          echo "Generating contribution grid SVG"
+          curl -o dist/github-contribution-grid.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show=contributions&include_all_commits=true&count_private=true&theme=radical"
 
-      - name: Update README with GitHub Stats
-        run: |
-          echo "Updating GitHub Stats in README"
-          sed -i '/<!--GITHUB_STATS_START-->/,/<!--GITHUB_STATS_END-->/c\<!--GITHUB_STATS_START-->\n![GitHub Stats](stats.svg)\n![Top Languages](top-langs.svg)\n<!--GITHUB_STATS_END-->' README.md
-          cat README.md # 调试：打印 README 内容
-
-      - name: Commit stats changes
-        run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git add README.md stats.svg top-langs.svg
-          git commit -m 'docs: update README with WakaTime and GitHub stats' || echo "No changes to commit"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Pull and push changes
-        run: |
-          git pull --rebase origin main || echo "Failed to pull, continuing with push"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Contribution Snake
+      - name: Generate Contribution Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -75,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push Snake SVG to output branch
+      - name: Push SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
