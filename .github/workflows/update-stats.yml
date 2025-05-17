@@ -1,0 +1,84 @@
+name: Update Profile Stats and Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-stats:
+    name: Update README with Stats and Snake
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update WakaTime Stats
+        uses: athul/waka-readme@v0.3.0
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          TIME_RANGE: last_7_days
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          SHOW_MASKED_TIME: false
+          LANG_COUNT: 5
+          STOP_AT_OTHER: true
+          IGNORED_LANGUAGES: YAML JSON TOML
+          COMMIT_MESSAGE: 'docs: update WakaTime stats in README'
+          BLOCKS: '⣀⣄⣤⣦⣶⣾⣿'
+          TARGET_PATH: README.md
+          TARGET_BRANCH: main
+
+      - name: Generate GitHub Stats Card
+        run: |
+          echo "Generating GitHub stats cards"
+          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical"
+          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical"
+
+      - name: Update README with GitHub Stats
+        run: |
+          echo "Updating GitHub Stats in README"
+          sed -i '/<!--GITHUB_STATS_START-->/,/<!--GITHUB_STATS_END-->/c\<!--GITHUB_STATS_START-->\n![GitHub Stats](stats.svg)\n![Top Languages](top-langs.svg)\n<!--GITHUB_STATS_END-->' README.md
+          cat README.md # 调试：打印 README 内容
+
+      - name: Commit stats changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add README.md stats.svg top-langs.svg
+          git commit -m 'docs: update README with WakaTime and GitHub stats' || echo "No changes to commit"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull and push changes
+        run: |
+          git pull --rebase origin main || echo "Failed to pull, continuing with push"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push Snake SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
