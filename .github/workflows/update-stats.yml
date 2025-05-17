@@ -19,36 +19,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # 获取完整历史记录
-
-      - name: Debug WakaTime API
-        run: |
-          echo "Checking WakaTime API key"
-          if [ -z "${{ secrets.WAKATIME_API_KEY }}" ]; then
-            echo "Error: WAKATIME_API_KEY is not set"
-            exit 1
-          fi
-          echo "Testing WakaTime API"
-          curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" "https://wakatime.com/api/v1/users/current/stats/last_year" > wakatime_response.json
-          if grep -q '"data"' wakatime_response.json; then
-            echo "WakaTime API response contains data"
-          else
-            echo "Error: No data in WakaTime API response"
-            cat wakatime_response.json
-            exit 1
-          fi
-
-      - name: Generate WakaTime Activity Grid SVG
-        run: |
-          mkdir -p dist
-          echo "Generating WakaTime activity grid SVG"
-          WAKATIME_USERNAME="Benzyl_titanium"
-          curl -s -o dist/wakatime-activity-grid.svg "https://wakatime.com/share/@${WAKATIME_USERNAME}/activity.last_year.svg"
-          if [ -s dist/wakatime-activity-grid.svg ]; then
-            echo "WakaTime activity grid SVG generated successfully"
-          else
-            echo "Error: WakaTime activity grid SVG is empty or not generated"
-            exit 1
-          fi
           
       - name: Generate Stats and Contribution Grid SVG
         run: |
