@@ -4,7 +4,7 @@
 
 **Tetrabenzyl titanium 四苄基钛 苄钛 死变态 mtf 无证不含🍥 Fuck Organic Chemistry 友姬花穴 喜欢研究药物化学,有机合成,精神药理学,网络药理学,计算机辅助药物设计**  
 
-* ![Home](https://img.icons8.com/?size=24&id=83326&format=png)**[Home](benzyl-titanium.netlify.app)**  
+* ![Home](https://img.icons8.com/?size=24&id=83326&format=png)**[Home](https://benzyl-titanium.netlify.app)**  
 * ![Blog](https://img.icons8.com/?size=24&id=91510&format=png)**[Blog](https://benzyl-titanium.pages.dev)**  
 * ![Twitter](https://img.icons8.com/?size=24&id=de4vjQ6J061l&format=png)**[Twitter](https://x.com/Benzyl_titanium)**
 
