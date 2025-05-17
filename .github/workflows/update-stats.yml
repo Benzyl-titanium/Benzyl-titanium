@@ -29,7 +29,7 @@ jobs:
         run: |
           mkdir -p dist
           echo "Generating GitHub stats cards"
-          curl -o dist/stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical&include_all_commits=true&count_private=true"
+          curl -o dist/stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&theme=radical&show_icons=true"
           curl -o dist/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical"
           echo "Generating contribution grid SVG"
           curl -o dist/github-contribution-grid.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show=contributions&include_all_commits=true&count_private=true&theme=radical"
