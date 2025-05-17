@@ -37,26 +37,16 @@ jobs:
             exit 1
           fi
 
-      - name: Generate WakaTime Stats SVG
-        uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          OUTPUT_LOCATION: dist/wakatime-stats.svg
-          SHOW_TITLE: true
-          BLOCKS: ⬛⬜🟪🟫
-          TIME_RANGE: last_year
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-        env:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-
-      - name: Verify WakaTime SVG
+      - name: Generate WakaTime Activity Grid SVG
         run: |
-          if [ -f dist/wakatime-stats.svg ]; then
-            echo "WakaTime SVG generated successfully"
-            ls -l dist/
+          mkdir -p dist
+          echo "Generating WakaTime activity grid SVG"
+          WAKATIME_USERNAME="Benzyl_titanium"
+          curl -s -o dist/wakatime-activity-grid.svg "https://wakatime.com/share/@${WAKATIME_USERNAME}/activity.last_year.svg"
+          if [ -s dist/wakatime-activity-grid.svg ]; then
+            echo "WakaTime activity grid SVG generated successfully"
           else
-            echo "Error: WakaTime SVG not generated"
+            echo "Error: WakaTime activity grid SVG is empty or not generated"
             exit 1
           fi
           
