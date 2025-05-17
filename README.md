@@ -26,3 +26,5 @@
 <img  width="45%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/stats.svg" alt="Benzyl titanium's GitHub Stats" />
 
 <img src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/github-contribution-grid-snake.svg" alt="Benzyl titanium's GitHub contributions in the last year" />
+
+<img src="https://wakapi.dev/api/activity/chart/Benzyl-titanium.svg" alt="Benzyl titanium's wakaip activity in the last year" />
