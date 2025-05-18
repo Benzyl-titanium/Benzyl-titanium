@@ -12,7 +12,7 @@
 
 * [猜无机化合物游戏](https://benzyl-titanium.netlify.app/chemgame)
 * [化学合成实验手册](https://chemhandbook.netlify.app)
-* [700种常见化合物在水中的溶解度](https://https://benzyl-titanium.netlify.app/solubility)
+* [700种常见化合物在水中的溶解度](https://benzyl-titanium.netlify.app/solubility)
 * [babychem基础有机化学手写笔记](https://github.com/Benzyl-titanium/BabyChem/releases/download/organic-chemistry/BabyChem.pdf)
 
 ### ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
