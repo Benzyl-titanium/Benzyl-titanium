@@ -17,7 +17,7 @@
 
 ### ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
   
-* [截至2024.07.01,中国全部的管制药品目录](https://https://benzyl-titanium.netlify.app/structural-formula)
+* [截至2024.07.01,中国全部的管制药品目录](https://benzyl-titanium.netlify.app/structural-formula)
 * [设计药物](https://benzyl-titanium.netlify.app/designdrugs)
 
 ### ![Call me](https://img.icons8.com/?size=32&id=hsuk_Fb1Vepp&format=png)Call me
