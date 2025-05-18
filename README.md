@@ -8,12 +8,24 @@
 * ![Blog](https://img.icons8.com/?size=24&id=91510&format=png)**[Blog](https://benzyl-titanium.pages.dev)**  
 * ![Twitter](https://img.icons8.com/?size=24&id=de4vjQ6J061l&format=png)**[Twitter](https://x.com/Benzyl_titanium)**
 
+### ![Chem](https://img.icons8.com/?size=32&id=HtM0PUXRDhK8&format=png)Chem
+
+* [猜无机化合物游戏](https://benzyl-titanium.netlify.app/chemgame)
+* [化学合成实验手册](https://chemhandbook.netlify.app)
+* [700种常见化合物在水中的溶解度](https://https://benzyl-titanium.netlify.app/solubility)
+* [babychem基础有机化学手写笔记](https://github.com/Benzyl-titanium/BabyChem/releases/download/organic-chemistry/BabyChem.pdf)
+
+### ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
+  
+* [截至2024.07.01,中国全部的管制药品目录](https://https://benzyl-titanium.netlify.app/structural-formula)
+* [设计药物](https://benzyl-titanium.netlify.app/designdrugs)
+
 ### ![Call me](https://img.icons8.com/?size=32&id=hsuk_Fb1Vepp&format=png)Call me
 
 * ![Telegram](https://img.icons8.com/?size=24&id=8Rwkk7zgV076&format=png)**[Telegram](https://t.me/Benzyl_titanium)**
 * ![Email](https://img.icons8.com/?size=24&id=85467&format=png)**[Email](mailto:benzyl.titanium@gmail.com)**
 
-### ![stats](https://img.icons8.com/?size=32&id=61298&format=png)Stats
+### ![Stats](https://img.icons8.com/?size=32&id=61298&format=png)Stats
 
 <img src="https://wakatime.com/badge/user/00f0d57a-f6e1-492d-93c6-d00e19980958.svg?style=for-the-badge" alt="Total time coded since Apr 28 2025" />
 
