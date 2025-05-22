@@ -4,22 +4,22 @@
 
 **Tetrabenzyl titanium 四苄基钛 苄钛 死变态 mtf 无证不含🍥 Fuck Organic Chemistry 友姬花穴 喜欢研究药物化学,有机合成,精神药理学,网络药理学,计算机辅助药物设计**  
 
-* ![Home](https://img.icons8.com/?size=24&id=83326&format=png)**[Home](https://benzyl-titanium.netlify.app)**  
+* ![Home](https://img.icons8.com/?size=24&id=83326&format=png)**[Home](https://biantai.pages.dev)**  
 * ![Blog](https://img.icons8.com/?size=24&id=91510&format=png)**[Blog](https://benzyl-titanium.pages.dev)**  
 * ![Twitter](https://img.icons8.com/?size=24&id=de4vjQ6J061l&format=png)**[Twitter](https://x.com/Benzyl_titanium)**
 
 ### ![Chem](https://img.icons8.com/?size=32&id=HtM0PUXRDhK8&format=png)Chem
 
-* [猜无机化合物游戏](https://benzyl-titanium.netlify.app/chemgame)
+* [猜无机化合物游戏](https://biantai.pages.dev/chemgame)
 * [化学合成实验手册](https://chemhandbook.netlify.app)
-* [化学结构编辑器Marvin JS](https://benzyl-titanium.netlify.app/marvin)
-* [700种常见化合物在水中的溶解度](https://benzyl-titanium.netlify.app/solubility)
+* [化学结构编辑器Marvin JS](https://biantai.pages.dev/marvin)
+* [700种常见化合物在水中的溶解度](https://biantai.pages.dev/solubility)
 * [babychem基础有机化学手写笔记](https://github.com/Benzyl-titanium/BabyChem/releases/download/organic-chemistry/BabyChem.pdf)
 
 ### ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
   
-* [截至2024.07.01,中国全部的管制药品目录](https://benzyl-titanium.netlify.app/structural-formula)
-* [设计药物](https://benzyl-titanium.netlify.app/designdrugs)
+* [截至2024.07.01,中国全部的管制药品目录](https://biantai.pages.dev/structural-formula)
+* [设计药物](https://biantai.pages.dev/designdrugs)
 
 ### ![Call me](https://img.icons8.com/?size=32&id=hsuk_Fb1Vepp&format=png)Call me
 
