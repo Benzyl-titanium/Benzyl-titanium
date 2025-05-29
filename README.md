@@ -11,14 +11,15 @@
 ### ![Chem](https://img.icons8.com/?size=32&id=HtM0PUXRDhK8&format=png)Chem
 
 * [猜无机化合物游戏](https://biantai.pages.dev/chemgame)
-* [化学合成实验手册](https://biantai.pages.dev/chemhandbook)
-* [化学结构编辑器Marvin JS](https://biantai.pages.dev/marvin)
+* [化学合成实验手册](https://chemhandbook.netlify.app)
+* [化学结构编辑器Marvin JS](https://marvinjs.pages.dev)
 * [700种常见化合物在水中的溶解度](https://biantai.pages.dev/solubility)
 * [babychem基础有机化学手写笔记](https://github.com/Benzyl-titanium/BabyChem/releases/download/organic-chemistry/BabyChem.pdf)
 
 ### ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
-  
-* [截至2024.07.01,中国全部的管制药品目录](https://biantai.pages.dev/structural-formula)
+
+* [截至2024.07.01,中国全部的管制药品目录](https://benzyl-titanium.pages.dev/posts/structural-formula)
+* [中国管制药品名录结构式&表格整合版](https://biantai.pages.dev/structural-formula)
 * [设计药物](https://biantai.pages.dev/designdrugs)
 
 ### ![Call me](https://img.icons8.com/?size=32&id=hsuk_Fb1Vepp&format=png)Call me
