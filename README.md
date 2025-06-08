@@ -41,6 +41,14 @@
 
 <img  width="45%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/stats.svg" alt="Benzyl titanium's GitHub Stats" />
 
-<img src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/github-contribution-grid-snake.svg" alt="Benzyl titanium's GitHub contributions in the last year" />
+<img width="100%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/github-contribution-grid-snake.svg" alt="Benzyl titanium's GitHub contributions in the last year" />
 
-<img src="https://wakapi.dev/api/activity/chart/Benzyl-titanium.svg" alt="Benzyl titanium's wakaip activity in the last year" />
+<img width="100%" src="https://wakatime.com/share/@Benzyl_titanium/1531480b-3ea9-44d0-a41a-3036e9922d0d.svg" alt="Benzyl titanium's wakatime activity in the last year" />
+
+<details>
+    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/d760295b-c524-4efc-89e5-e12de39f125f.svg"></embed></figure>
+    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/ebcd4fec-ec02-4451-bc4c-a18c8c7c4e3f.svg"></embed></figure>
+    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/819c55fb-1a60-471d-b9eb-836f448e718e.svg"></embed></figure>
+    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/91b112e4-f0d3-484b-988a-01b8d1cc00d5.svg"></embed></figure>
+    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/2c423c7c-37e9-4bac-ae2d-a79cda8ff7fb.svg"></embed></figure>
+</details>
