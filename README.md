@@ -45,10 +45,12 @@
 
 <img width="100%" src="https://wakatime.com/share/@Benzyl_titanium/1531480b-3ea9-44d0-a41a-3036e9922d0d.svg" alt="Benzyl titanium's wakatime activity in the last year" />
 
+<img width="100%" src="https://wakatime.com/share/@Benzyl_titanium/5febd7e3-8d4d-4c3a-99e2-2871071cc270.svg">
+
 <details>
-    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/d760295b-c524-4efc-89e5-e12de39f125f.svg"></embed></figure>
-    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/ebcd4fec-ec02-4451-bc4c-a18c8c7c4e3f.svg"></embed></figure>
-    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/819c55fb-1a60-471d-b9eb-836f448e718e.svg"></embed></figure>
-    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/91b112e4-f0d3-484b-988a-01b8d1cc00d5.svg"></embed></figure>
-    <figure><embed src="https://wakatime.com/share/@Benzyl_titanium/2c423c7c-37e9-4bac-ae2d-a79cda8ff7fb.svg"></embed></figure>
+    <summary>wakatime</summary>
+    <img width="45%" src="https://wakatime.com/share/@Benzyl_titanium/ebcd4fec-ec02-4451-bc4c-a18c8c7c4e3f.svg">
+    <img align="right" width="45%"  src="https://wakatime.com/share/@Benzyl_titanium/819c55fb-1a60-471d-b9eb-836f448e718e.svg">
+    <img width="45%" src="https://wakatime.com/share/@Benzyl_titanium/91b112e4-f0d3-484b-988a-01b8d1cc00d5.svg">
+    <img align="right" width="45%" src="https://wakatime.com/share/@Benzyl_titanium/2c423c7c-37e9-4bac-ae2d-a79cda8ff7fb.svg">
 </details>
