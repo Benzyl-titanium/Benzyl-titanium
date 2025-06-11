@@ -20,7 +20,7 @@
 
 ### ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
 
-* [截至2024.07.01,中国全部的管制药品目录](https://benzyl-titanium.pages.dev/posts/structural-formula)
+* [截至2024.07.01,中国全部的管制药品目录](https://benzyl-titanium.pages.dev/posts/drug/structural-formula)
 * [中国管制药品名录结构式&表格整合版](https://biantai.pages.dev/structural-formula)
 * [设计药物](https://biantai.pages.dev/designdrugs)
 
