@@ -17,6 +17,7 @@
 * [同位素分析](https://zeeman.pages.dev)
 * [babychem基础有机化学手写笔记](https://github.com/Benzyl-titanium/BabyChem/releases/download/organic-chemistry/BabyChem.pdf)
 * [有机物合成路线ChemByRika](https://chembyrika.netlify.app)
+* [smilesDrawer](https://biantai.pages.dev/smilesdrawer)
 
 ### ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
 
