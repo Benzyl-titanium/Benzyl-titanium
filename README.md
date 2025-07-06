@@ -11,7 +11,6 @@
 ### ![Chem](https://img.icons8.com/?size=32&id=HtM0PUXRDhK8&format=png)Chem
 
 * [猜无机化合物游戏](https://biantai.pages.dev/chemgame)
-* [化学合成实验手册](https://chemhandbook.netlify.app)
 * [化学结构编辑器Marvin JS](https://marvinjs.pages.dev)
 * [700种常见化合物在水中的溶解度](https://biantai.pages.dev/solubility)
 * [同位素分析](https://zeeman.pages.dev)
