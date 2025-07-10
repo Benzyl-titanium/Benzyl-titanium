@@ -1,15 +1,21 @@
-![Welcome to Benzyl titanium's GitHub page!](https://readme-typing-svg.demolab.com/?font=&size=22&pause=1000&center=true&vCenter=true&random=false&width=600&lines=Welcome%20to%20Benzyl%20titanium%27s%20GitHub%20page!)
+<p align="center">
+    <img width="800" src="https://readme-typing-svg.demolab.com?font=&size=22&pause=1000&center=true&vCenter=true&random=false&width=600&lines=Welcome%20to%20Benzyl%20titanium%27s%20GitHub%20page!" alt="Welcome to Benzyl titanium's GitHub page!" />
+</p>
 
-### ![Bio](https://img.icons8.com/?size=32&id=82751&format=png)Bio
+<img src="https://avatars.githubusercontent.com/u/205879952?s=200&v=4" alt="biantailab logo" width="100" height="100" align="right" />
 
-**Tetrabenzyl titanium 四苄基钛 苄钛 死变态 mtf 无证不含🍥 Fuck Organic Chemistry 友姬花穴 喜欢研究药物化学,有机合成,精神药理学,网络药理学,计算机辅助药物设计**  
+## ![Bio](https://img.icons8.com/?size=32&id=82751&format=png)Bio
+
+**Tetrabenzyl titanium 四苄基钛 苄钛 死变态**<br>
+**mtf 无证不含🍥 Fuck Organic Chemistry 友姬花穴**<br>
+**喜欢研究药物化学,有机合成,精神药理学,网络药理学,计算机辅助药物设计**  
 
 * ![Home](https://img.icons8.com/?size=24&id=83326&format=png)**[Home](https://biantai.pages.dev)**  
 * ![Blog](https://img.icons8.com/?size=24&id=91510&format=png)**[Blog](https://benzyl-titanium.pages.dev)**  
 * ![Twitter](https://img.icons8.com/?size=24&id=de4vjQ6J061l&format=png)**[Twitter](https://x.com/Benzyl_titanium)**
-
-### ![Chem](https://img.icons8.com/?size=32&id=HtM0PUXRDhK8&format=png)Chem
-
+    
+## ![Chem](https://img.icons8.com/?size=32&id=HtM0PUXRDhK8&format=png)Chem
+    
 * [猜无机化合物游戏](https://biantai.pages.dev/chemgame)
 * [化学结构编辑器Marvin JS](https://marvinjs.pages.dev)
 * [700种常见化合物在水中的溶解度](https://biantai.pages.dev/solubility)
@@ -18,18 +24,18 @@
 * [有机物合成路线ChemByRika](https://chembyrika.netlify.app)
 * [smilesDrawer](https://biantai.pages.dev/smilesdrawer)
 
-### ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
-
+## ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
+    
 * [截至2025.07.01,中国全部的管制药品目录](https://benzyl-titanium.pages.dev/posts/drug/structural-formula)
 * [中国管制药品名录结构式&表格整合版](https://biantai.pages.dev/structural-formula)
 * [设计药物](https://benzyl-titanium.pages.dev/posts/drug/designdrugs)
 
-### ![Call me](https://img.icons8.com/?size=32&id=hsuk_Fb1Vepp&format=png)Call me
+## ![Call me](https://img.icons8.com/?size=32&id=hsuk_Fb1Vepp&format=png)Call me
 
 * ![Telegram](https://img.icons8.com/?size=24&id=8Rwkk7zgV076&format=png)**[Telegram](https://t.me/Benzyl_titanium)**
 * ![Email](https://img.icons8.com/?size=24&id=85467&format=png)**[Email](mailto:benzyl.titanium@gmail.com)**
 
-### ![Stats](https://img.icons8.com/?size=32&id=61298&format=png)Stats
+## ![Stats](https://img.icons8.com/?size=32&id=61298&format=png)Stats
 
 <img align="right" width="45%" src="https://wakatime.com/badge/user/00f0d57a-f6e1-492d-93c6-d00e19980958.svg?style=for-the-badge" alt="Total time coded since Apr 28 2025" />
 
