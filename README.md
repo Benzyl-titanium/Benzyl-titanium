@@ -2,7 +2,7 @@
     <img width="800" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=E3769B&center=true&vCenter=true&random=false&width=600&lines=Welcome%20to%20Benzyl%20titanium%27s%20GitHub%20page!" alt="Welcome to Benzyl titanium's GitHub page!" />
 </p>
 
-<img src="https://avatars.githubusercontent.com/u/205879952?s=200&v=4" alt="biantailab logo" width="100" height="100" align="right" />
+<img src="https://avatars.githubusercontent.com/u/205879952?s=400&u=9321e8a2be9ffeafa6e67481d16c6202b35e1e30&v=4" alt="biantailab logo" width="100" height="100" align="right" />
 
 ## ![Bio](https://img.icons8.com/?size=32&id=82751&format=png)Bio
 
