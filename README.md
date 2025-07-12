@@ -10,7 +10,6 @@
 **Fuck Organic Chemistry 友姬花穴**  
 **喜欢研究药物化学,有机合成,精神药理学,网络药理学,计算机辅助药物设计**  
 
-* ![Home](https://img.icons8.com/?size=24&id=83326&format=png)**[Home](https://biantai.pages.dev)**
 * ![Blog](https://img.icons8.com/?size=24&id=EMfHtOm6xPEe&format=png)**[Blog](https://benzyl-titanium.pages.dev)**
 * ![Twitter](https://img.icons8.com/?size=24&id=de4vjQ6J061l&format=png)**[Twitter](https://x.com/Benzyl_titanium)**
     
