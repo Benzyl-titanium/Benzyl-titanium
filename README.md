@@ -31,7 +31,7 @@
 ## ![Call me](https://img.icons8.com/?size=32&id=hsuk_Fb1Vepp&format=png)Call me
 
 * ![Telegram](https://img.icons8.com/?size=24&id=8Rwkk7zgV076&format=png)**[Telegram](https://t.me/Benzyl_titanium)**
-* ![Email](https://img.icons8.com/?size=24&id=85467&format=png)**[Email](mailto:benzyl.titanium@gmail.com)**
+* ![Email](https://img.icons8.com/?size=24&id=85467&format=png)**[Email](mailto:Benzyl-titanium@proton.me)**
 
 ## ![Stats](https://img.icons8.com/?size=32&id=61298&format=png)Stats
 
