@@ -14,7 +14,7 @@
 * ![Blog](https://img.icons8.com/?size=24&id=EMfHtOm6xPEe&format=png)**[Blog](https://benzyl-titanium.pages.dev)**
 * ![Twitter](https://img.icons8.com/?size=24&id=de4vjQ6J061l&format=png)**[Twitter](https://x.com/Benzyl_titanium)**
     
-## ![Chem](https://img.icons8.com/?size=32&id=HtM0PUXRDhK8&format=png)Chem
+<!-- ## ![Chem](https://img.icons8.com/?size=32&id=HtM0PUXRDhK8&format=png)Chem
     
 * [猜无机化合物游戏](https://biantai.pages.dev/chemgame)
 * [化学结构编辑器Marvin JS](https://marvinjs.pages.dev)
@@ -27,7 +27,7 @@
 ## ![Drug](https://img.icons8.com/?size=32&id=60692&format=png)Drug
     
 * [截至2025.07.01,中国全部的管制药品目录](https://benzyl-titanium.pages.dev/posts/drug/structural-formula)
-* [设计药物](https://benzyl-titanium.pages.dev/posts/drug/designdrugs)
+* [设计药物](https://benzyl-titanium.pages.dev/posts/drug/designdrugs) -->
 
 ## ![Call me](https://img.icons8.com/?size=32&id=hsuk_Fb1Vepp&format=png)Call me
 
