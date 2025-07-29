@@ -26,7 +26,7 @@
 
 <img align="right" width="45%" height="auto" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Benzyl_titanium&theme=react&layout=compact" />
 
-<img width="45%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/top-langs.svg" alt="No languages data" />
+<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Benzyl-titanium&layout=compact&theme=radical" alt="No languages data" />
 
 <img  width="45%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/stats.svg" alt="Benzyl titanium's GitHub Stats" />
 
