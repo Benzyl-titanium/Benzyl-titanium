@@ -10,8 +10,18 @@
 **Fuck Organic Chemistry 友姬花穴**  
 **喜欢研究药物化学,有机合不成,精神药理学,网络药理学,计算机辅助药物设计**  
 
+## 🌏 Web
+
+* 🏠 **[Home](https://biantai.pages.dev)**
 * 📝 **[Blog](https://benzyl-titanium.pages.dev)**
-* 🐦‍⬛ **[Twitter](https://x.com/Benzyl_titanium)**
+
+## 📱 Account in other platforms
+
+* 🦊 **[GitLab](https://gitlab.com/Benzyl-titanium)**
+* ⌚️ **[WakaTime](https://wakatime.com/@Benzyl_titanium)**
+* ✖️ **[X(Twitter)](https://x.com/Benzyl_titanium)**
+* 🦋 **[Bluesky](https://bsky.app/profile/benzyl-titanium.bsky.social)**
+* 📺 **[BiliBili](https://space.bilibili.com/553592371)**
 
 ## 📞 Call me
 
