@@ -2,11 +2,9 @@
     <img width="800" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=E3769B&center=true&vCenter=true&random=false&width=600&lines=Welcome%20to%20Benzyl%20titanium%27s%20GitHub%20page!" alt="Welcome to Benzyl titanium's GitHub page!" />
 </p>
 
-<p align="center">
-    <img width="50%" src="assets/github.kdx.png" alt="KingDraw GitHub" />
-    <br>
-    <b>GitHub with KingDraw</b>
-</p>
+<img align="right" width="50%" src="assets/github.pymol.png"/>
+
+<img width="50%" src="assets/github.kdx.png" alt="KingDraw GitHub" />
 
 <img src="assets/biantailab_logo.png" alt="biantailab logo" width="100" height="100" align="right" />
 
