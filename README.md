@@ -44,9 +44,15 @@
 
 <img  width="45%" src="https://github-readme-stats.vercel.app/api?username=Benzyl-titanium&include_all_commits=true&line_height=30&theme=radical&show_icons=true" alt="Benzyl titanium's GitHub Stats" />
 
+<!-- <img align="right" width="45%" src="https://wakatime.com/share/@Benzyl_titanium/5febd7e3-8d4d-4c3a-99e2-2871071cc270.svg">
+
+<img width="45%" src="https://github-profile-trophy.vercel.app/?username=Benzyl-titanium&column=5&margin-w=5&margin-h=5&theme=discord" /> -->
+
 <img align="right" width="45%" src="https://wakatime.com/share/@Benzyl_titanium/5febd7e3-8d4d-4c3a-99e2-2871071cc270.svg">
 
 <img width="45%" src="https://github-profile-trophy.vercel.app/?username=Benzyl-titanium&column=5&margin-w=5&margin-h=5&theme=discord" />
+
+<!-- <img width="100%" src="https://wakatime.com/share/@Benzyl_titanium/5febd7e3-8d4d-4c3a-99e2-2871071cc270.svg"> -->
 
 <img width="100%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/github-contribution-grid-snake.svg" alt="Benzyl titanium's GitHub contributions in the last year" />
 
