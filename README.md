@@ -42,7 +42,7 @@
 
 <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Benzyl-titanium&layout=compact&theme=radical" alt="No languages data" />
 
-<img  width="45%" src="https://github-readme-stats.vercel.app/api?username=Benzyl-titanium&include_all_commits=true&line_height=30&theme=radical&show_icons=true" alt="Benzyl titanium's GitHub Stats" />
+<img  width="45%" src="https://github-readme-stats.vercel.app/api?username=Benzyl-titanium&include_all_commits=true&theme=radical&show_icons=true" alt="Benzyl titanium's GitHub Stats" />
 
 <!-- <img align="right" width="45%" src="https://wakatime.com/share/@Benzyl_titanium/5febd7e3-8d4d-4c3a-99e2-2871071cc270.svg">
 
