@@ -51,7 +51,7 @@
 
 <img align="right" width="45%" src="https://wakatime.com/share/@Benzyl_titanium/5febd7e3-8d4d-4c3a-99e2-2871071cc270.svg">
 
-<img width="45%" src="https://github-profile-trophy.vercel.app/?username=Benzyl-titanium&column=5&margin-w=5&margin-h=5&theme=discord" />
+<img width="45%" src="https://github-profile-trophy.vercel.app/?username=Benzyl-titanium&column=3&margin-w=3&margin-h=3&theme=discord" />
 
 <!-- <img width="100%" src="https://wakatime.com/share/@Benzyl_titanium/5febd7e3-8d4d-4c3a-99e2-2871071cc270.svg"> -->
 
