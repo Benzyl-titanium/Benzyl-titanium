@@ -41,9 +41,9 @@
 
 <img align="right" width="45%" height="auto" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Benzyl_titanium&theme=react&layout=compact" />
 
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Benzyl-titanium&theme=radical&layout=compact" alt="No languages data" />
+<img width="45%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/top-langs.svg" alt="No languages data" />
 
-<img  width="45%" src="https://github-readme-stats.vercel.app/api?username=Benzyl-titanium&include_all_commits=true&line_height=30&theme=radical&show_icons=true" alt="Benzyl titanium's GitHub Stats" />
+<img  width="45%" src="https://github.com/Benzyl-titanium/Benzyl-titanium/blob/output/github-contribution-grid.svg" alt="Benzyl titanium's GitHub Stats" />
 
 <!-- <img align="right" width="45%" src="https://wakatime.com/share/@Benzyl_titanium/5febd7e3-8d4d-4c3a-99e2-2871071cc270.svg">
 
