@@ -10,9 +10,8 @@
 
 ## 🪪 Bio
 
-**Tetrabenzyl titanium 四苄基钛 苄钛 死变态 mtf 无证不含🍥**  
-**Fuck Organic Chemistry 友姬花穴**  
-**药物画学 | 有机合不成 | 精神药理学 | 网络药理学 | 计算机辅助药物设计**  
+**Tetrabenzyl titanium 四苄基钛 四苄钛 死变态 苄钛 ~~Fuck Organic Chemistry~~**  
+**友姬花穴 | 药物画学 | 有机合不成 | 精神药理学 | 网络药理学 | 计算机辅助药物设计**  
 
 ## 🌏 Web
 
