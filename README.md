@@ -25,7 +25,6 @@
 * ✖️ **[X(Twitter)](https://x.com/Benzyl_titanium)**
 * 🦋 **[Bluesky](https://bsky.app/profile/benzyl-titanium.bsky.social)**
 * 📺 **[YouTube](https://www.youtube.com/@Benzyl-titanium)**
-* 📺 **[BiliBili](https://space.bilibili.com/553592371)**
 
 ## 📞 Call me
 
