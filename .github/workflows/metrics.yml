@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # 每天运行一次
   schedule: [{cron: "0 0 * * *"}]
-  # 允许手动触发
   workflow_dispatch:
-  # 当推送到主分支时触发
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -15,35 +12,34 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # 使用你刚才设置的 Secret
-          token: ${{ github.repository_owner }}
+          # 1. 必须保留这个 Token (对应你在仓库 Secrets 里填的那个)
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          # 基础设置
-          user: Benzyl-titanium
+          # 2. 自动获取你的用户名
+          user: ${{ github.repository_owner }}
+          
+          # 3. 结果保存到 "metrics" 独立分支
+          # 注意：为了不和贪吃蛇的 output 分支冲突，建议这里叫 metrics
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          
+          # 4. 生成的文件名
+          filename: github-metrics.svg
+
+          # --- 插件配置 ---
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Shanghai # 设定时区，避免提交时间错乱
-
-          # 插件：语言分析 (对应你代码中的 plugin_languages)
+          config_timezone: Asia/Shanghai
+          
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: lines, percentage
           plugin_languages_analysis_timeout: 15
-          # 这里移除了别人特有的忽略列表，你可以根据需要稍后添加
-
-          # 插件：ISO 日历 (类似 GitHub 的贡献格子图，但在图片里)
+          
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
-          # 插件：Reaction (其他人对你 issue 的表情反应)
+          
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
-
-          # 插件：RSS (如果你有博客，取消下面注释并替换网址)
-          plugin_rss: yes
-          plugin_rss_source: https://benzyl-titanium.pages.dev
-          plugin_rss_limit: 4
-
-          # 输出文件名为 github-metrics.svg
-          filename: github-metrics.svg
