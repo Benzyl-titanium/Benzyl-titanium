@@ -12,34 +12,32 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # 1. 必须保留这个 Token (对应你在仓库 Secrets 里填的那个)
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # 2. 自动获取你的用户名
           user: ${{ github.repository_owner }}
-          
-          # 3. 结果保存到 "metrics" 独立分支
-          # 注意：为了不和贪吃蛇的 output 分支冲突，建议这里叫 metrics
           output_action: commit
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
-          # 4. 生成的文件名
           filename: github-metrics.svg
 
-          # --- 插件配置 ---
           template: classic
-          base: header, activity, community, repositories, metadata
+          config_display: large
           config_timezone: Asia/Shanghai
           
+          base: header, activity, community, repositories, metadata
+
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: lines, percentage
+          plugin_languages_sections: most-used
           plugin_languages_analysis_timeout: 15
+          
+          plugin_rss: yes
+          plugin_rss_source: https://benzyl-titanium.pages.dev/rss.xml
+          plugin_rss_limit: 4
           
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          
+
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
