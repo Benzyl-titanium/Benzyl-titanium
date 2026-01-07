@@ -17,14 +17,14 @@ jobs:
           user: ${{ github.repository_owner }}
           output_action: commit
           committer_branch: metrics
-          committer_message: "chore: fix layout order"
+          committer_message: "chore: fix sort order with base prefixes"
           filename: github-metrics.svg
 
           template: classic
           config_display: large
           config_timezone: Asia/Shanghai
 
-          config_order: base.header, activity, community, repositories, languages, rss, metadata, wakatime, isocalendar, reactions
+          config_order: base.header, base.activity, base.community, base.repositories, base.metadata, languages, rss, wakatime, isocalendar
 
           base: header, activity, community, repositories, metadata
           base_indepth: yes
@@ -41,7 +41,7 @@ jobs:
           plugin_rss_limit: 5
 
           plugin_wakatime: yes
-          plugin_wakatime_sections: time, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_days: 7
 
           plugin_isocalendar: yes
