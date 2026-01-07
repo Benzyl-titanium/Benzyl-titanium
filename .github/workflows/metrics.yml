@@ -36,12 +36,12 @@ jobs:
           plugin_rss_source: https://benzyl-titanium.pages.dev/rss.xml
           plugin_rss_limit: 5
 
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
           plugin_wakatime: yes
           plugin_wakatime_sections: time, languages, languages-graphs, editors, os
           plugin_wakatime_days: 7
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
 
           plugin_reactions: yes
           plugin_reactions_limit: 100
