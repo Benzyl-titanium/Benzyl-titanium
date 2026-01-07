@@ -17,36 +17,33 @@ jobs:
           user: ${{ github.repository_owner }}
           output_action: commit
           committer_branch: metrics
-          committer_message: "chore: fix layout using standard base key"
+          committer_message: "chore: update metrics"
           filename: github-metrics.svg
 
           template: classic
           config_display: large
           config_timezone: Asia/Shanghai
-          
-          config_order: base, languages, rss, wakatime, isocalendar, reactions
 
           base: header, activity, community, repositories, metadata
-          base_indepth: yes
 
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: lines, percentage
           plugin_languages_sections: most-used
-          plugin_languages_limit: 8
-          plugin_languages_threshold: 0%
+          plugin_languages_analysis_timeout: 15
 
           plugin_rss: yes
           plugin_rss_source: https://benzyl-titanium.pages.dev/rss.xml
           plugin_rss_limit: 5
 
-          plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects, languages, languages-graphs, editors, os
-          plugin_wakatime_days: 7
-
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, languages, languages-graphs, editors, os
+          plugin_wakatime_days: 7
 
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
+
