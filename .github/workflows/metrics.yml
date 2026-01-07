@@ -40,5 +40,8 @@ jobs:
           plugin_isocalendar_duration: half-year
 
           plugin_wakatime: yes
+          plugin_wakatime_user: Benzyl_titanium
+          plugin_wakatime_url: https://wakatime.com/@Benzyl_titanium
           plugin_wakatime_sections: time, languages, languages-graphs, editors, os
           plugin_wakatime_days: 7
+          plugin_wakatime_limit: 9
